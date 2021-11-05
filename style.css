@@ -1,0 +1,97 @@
+* {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	background: transparent;
+	outline: none;
+	text-decoration: none;
+	outline: none;
+	font-family: inherit;
+	box-sizing: border-box;
+}
+
+ol,
+ul,
+li {
+	list-style: none;
+	display: block;
+}
+
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+a img {
+	border: none;
+}
+
+button,
+a {
+	cursor: pointer;
+	color: inherit;
+}
+
+textarea {
+	resize: none;
+}
+
+button,
+input,
+textarea,
+select {
+	appearance: none !important;
+	-webkit-appearance: none !important;
+	border-radius: 0;
+}
+
+.level {
+    padding: 5vh 5vh;
+}
+
+.level1 {
+    position: relative;
+    width: 90vh;
+    height: 90vh;
+    background-color: #0A1B42;
+    margin: auto;
+}
+.level2 {
+    width: 80vh;
+    height: 80vh;
+    background-color: #1d315f;
+}
+.level3 {
+    width: 70vh;
+    height: 70vh;
+    background-color: #384C7B;
+}
+.level4 {
+    width: 60vh;
+    height: 60vh;
+    background-color: #5B6D97;
+}
+.level5 {
+    width: 50vh;
+    height: 50vh; 
+    background-color: #9BADD5;
+}
+.level6 {
+    width: 40vh;
+    height: 40vh;
+    background-color: #8896B7;
+}
+.level7 {
+    position: relative;
+    width: 30vh;
+    height: 30vh;
+    background-color: #CACDD3;
+}
+.level8 {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 20vh;
+    height: 20vh;
+    background-color: #fff;
+}
